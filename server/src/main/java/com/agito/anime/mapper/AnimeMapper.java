@@ -1,0 +1,9 @@
+package com.agito.anime.mapper;
+
+import com.agito.anime.entity.Anime;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface AnimeMapper extends BaseMapper<Anime> {
+}
